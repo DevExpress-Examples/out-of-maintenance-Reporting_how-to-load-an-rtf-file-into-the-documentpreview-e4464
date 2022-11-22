@@ -51,7 +51,7 @@ Namespace MinimalisticReportPreviewDemo
 			' 
 			' xrRichText1
 			' 
-			Me.xrRichText1.Font = New System.Drawing.Font("Times New Roman", 9.75F)
+			Me.xrRichText1.Font = New DevExpress.Drawing.DXFont("Times New Roman", 9.75F)
 			Me.xrRichText1.LocationFloat = New DevExpress.Utils.PointFloat(0F, 0F)
 			Me.xrRichText1.Name = "xrRichText1"
 			Me.xrRichText1.SerializableRtfString = resources_Conflict.GetString("xrRichText1.SerializableRtfString")
@@ -61,7 +61,7 @@ Namespace MinimalisticReportPreviewDemo
 			' 
 			Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.topMarginBand1, Me.bottomMarginBand1, Me.ReportHeader})
 			Me.Bookmark = "Table of Contents"
-			Me.Margins = New System.Drawing.Printing.Margins(49, 51, 48, 48)
+			Me.Margins = New DevExpress.Drawing.DXMargins(49, 51, 48, 48)
 			Me.Version = "12.2"
 			DirectCast(Me.xrRichText1, System.ComponentModel.ISupportInitialize).EndInit()
 			DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()

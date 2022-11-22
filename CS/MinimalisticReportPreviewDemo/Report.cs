@@ -53,7 +53,7 @@ namespace MinimalisticReportPreviewDemo
             // 
             // xrRichText1
             // 
-            this.xrRichText1.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.xrRichText1.Font = new DevExpress.Drawing.DXFont("Times New Roman", 9.75F);
             this.xrRichText1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrRichText1.Name = "xrRichText1";
             this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
@@ -67,7 +67,7 @@ namespace MinimalisticReportPreviewDemo
             this.bottomMarginBand1,
             this.ReportHeader});
             this.Bookmark = "Table of Contents";
-            this.Margins = new System.Drawing.Printing.Margins(49, 51, 48, 48);
+            this.Margins = new DevExpress.Drawing.DXMargins(49, 51, 48, 48);
             this.Version = "12.2";
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
